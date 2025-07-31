@@ -19,7 +19,7 @@ const [note,setNote]= useState({
   }
   function submit(event){
   props.onAdd(note);
-  etNote({
+  setNote({
       title: "",
       content: ""
     });
