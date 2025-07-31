@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 
 // WICHTIG: Der "base"-Pfad entspricht deinem GitHub Repo-Namen!
 export default defineConfig({
-  base: '/Keeper/',
+  base: '/Keeper',
   plugins: [react()],
 });
