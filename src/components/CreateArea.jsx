@@ -19,6 +19,10 @@ const [note,setNote]= useState({
   }
   function submit(event){
   props.onAdd(note);
+  etNote({
+      title: "",
+      content: ""
+    });
   event.preventDefault();
   }
 
@@ -40,6 +44,7 @@ const [note,setNote]= useState({
          />
         <button 
          onClick={submit}
+         
         >Add</button>
       </form>
     </div>
